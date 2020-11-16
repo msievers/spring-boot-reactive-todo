@@ -1,0 +1,14 @@
+openapi: 3.0.1
+info:
+  title: Todo API
+  description: Yikes, yet another todo API
+  version: v1
+servers:
+  - url: 'http://localhost:8080'
+paths:
+  /tasks:
+    get:
+      summary: Returns a list of tasks.
+      responses:
+        '200':
+          description: OK
